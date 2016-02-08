@@ -1,4 +1,4 @@
-# (Web)Mapping Elephants with Sparks
+# [(Web)Mapping Elephants with Sparks](http://thunderheadxpler.blogspot.com/2016/02/webmapping-elephants-with-sparks.html)
 
 This project is composed of tools written in Python to process and display a set of point data in CSV format from [HDFS](https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html).
 The processing is based on [Spark](http://spark.apache.org/), and the display on a desktop or on a web client is based on [ArcPy](http://pro.arcgis.com/en/pro-app/arcpy/get-started/what-is-arcpy-.htm).
@@ -12,7 +12,7 @@ Of course you can "cloud" it. Cloudera released a [Docker](https://www.docker.co
 
 ## Test Data
 
-You will use the famous [NYC Taxi trips](http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml) as our test set.
+We will use the famous [NYC Taxi trips](http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml) as our test set.
 I love that data set, as it contains 2 spatial and temporal elements (pickup and drop-off locations, dates and times) and additional trip attributes such as the number of passengers and the trip time.
 A 1 million trip subset can be downloaded from [here](https://dl.dropboxusercontent.com/u/2193160/trips-1M.csv.7z) to be placed in your HDFS instance as follows:
  
