@@ -7,7 +7,7 @@ The processing is based on [Spark](http://spark.apache.org/), and the display on
 
 * Create an [ArcGIS Online](https://www.arcgis.com/home/) account to publish your results as WebMaps and WebApps.
 
-* You need access to an HDFS instance. For local testing, you can download either the [Hortonworks](http://hortonworks.com/products/hortonworks-sandbox/) or the [Cloudera](http://www.cloudera.com/downloads/quickstart_vms/5-5.html) sandbox.
+* You need to access an HDFS instance. For local testing, you can download either the [Hortonworks](http://hortonworks.com/products/hortonworks-sandbox/) or the [Cloudera](http://www.cloudera.com/downloads/quickstart_vms/5-5.html) sandbox.
 Of course you can "cloud" it. Cloudera released a [Docker](https://www.docker.com/) based [image](https://blog.cloudera.com/blog/2015/12/docker-is-the-new-quickstart-option-for-apache-hadoop-and-cloudera/) and [Hortonworks teamed up with Azure](http://hortonworks.com/blog/hortonworks-sandbox-with-hdp-2-3-is-now-available-on-microsoft-azure-gallery/) to enable you to take HDP for a spin. 
 
 ## Test Data
