@@ -114,7 +114,7 @@ The easiest way to view the result on the web is to use the ArcGIS Online [WebAp
 
 ![](media/agol.png)
 
-Locate the published GeoProcessing URL and use it to add A GeoProcessing Widget to the header.
+Locate the published GeoProcessing URL and use it to add A GeoProcessing Widget to the application header.
 
 ![](media/widget-config.png)
 ![](media/widget-execute.png)
@@ -185,7 +185,7 @@ Locate the Geoprocessing tool URL, and use it to add a new Geoprocessing widget 
 
 ![](media/web-app-density.png)
 
-To view the content of the file in `hdfs:///tmp/hex`, use the `ImportHexTool`
+To view the content of the files in `hdfs:///tmp/hex`, use the `ImportHexTool`
 
 ![](media/import-hex.png)
 
