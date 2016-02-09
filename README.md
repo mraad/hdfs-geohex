@@ -3,6 +3,8 @@
 This project is composed of tools written in Python to process and display a set of point data in CSV format from [HDFS](https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html).
 The processing is based on [Spark](http://spark.apache.org/), and the display on a desktop or on a web client is based on [ArcPy](http://pro.arcgis.com/en/pro-app/arcpy/get-started/what-is-arcpy-.htm).
 
+![](media/map.png)
+
 ## Getting Started
 
 * Create an [ArcGIS Online](https://www.arcgis.com/home/) account to publish your results as WebMaps and WebApps.

@@ -219,7 +219,7 @@ class HexTool(object):
                 direction="Input",
                 datatype="GPString",
                 parameterType="Required")
-        param_path.value = "/tmp/rowcol"
+        param_path.value = "/tmp/hex"
 
         param_file = arcpy.Parameter(
                 name="in_file",
